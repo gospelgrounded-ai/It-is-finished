@@ -18,6 +18,7 @@ struct ConfirmStepView: View {
                 .padding(.top, 20)
 
             ScrollView {
+
                 VStack(spacing: 20) {
                     Image(systemName: "exclamationmark.triangle")
                         .font(.system(size: 44, weight: .thin))
@@ -57,6 +58,7 @@ struct ConfirmStepView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 48)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 
     private var stepIndicator: some View {

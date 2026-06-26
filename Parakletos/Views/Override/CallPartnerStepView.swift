@@ -57,6 +57,7 @@ struct CallPartnerStepView: View {
             .padding(.horizontal, 24)
             .padding(.bottom, 48)
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
     }
 
     private func openCall(to partner: AccountabilityPartner) {
