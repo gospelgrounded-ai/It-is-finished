@@ -13,8 +13,7 @@ struct CooldownStepView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Spacer()
-
+            ScrollView {
             VStack(spacing: 28) {
                 // Countdown ring
                 ZStack {
@@ -51,8 +50,10 @@ struct CooldownStepView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 40)
             }
-
-            Spacer()
+            .frame(maxWidth: .infinity)
+            .padding(.top, 52)
+            .padding(.bottom, 24)
+            } // ScrollView
 
             VStack(spacing: 6) {
                 if !timerDone {

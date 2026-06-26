@@ -7,8 +7,7 @@ struct RepentanceStepView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Spacer()
-
+            ScrollView {
             VStack(spacing: 24) {
                 Image(systemName: "arrow.uturn.backward.circle")
                     .font(.system(size: 44, weight: .thin))
@@ -35,8 +34,10 @@ struct RepentanceStepView: View {
                     .font(.footnote.italic())
                     .foregroundStyle(Design.Colors.gold.opacity(0.7))
             }
-
-            Spacer()
+            .frame(maxWidth: .infinity)
+            .padding(.top, 40)
+            .padding(.bottom, 24)
+            } // ScrollView
 
             VStack(spacing: 12) {
                 Button(action: onBack) {

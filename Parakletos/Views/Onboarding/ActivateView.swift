@@ -11,8 +11,7 @@ struct ActivateView: View {
             Design.Colors.background.ignoresSafeArea()
 
             VStack(spacing: 0) {
-                Spacer()
-
+                ScrollView {
                 // Summary card
                 VStack(spacing: 20) {
                     Image(systemName: "shield.lefthalf.filled")
@@ -45,8 +44,10 @@ struct ActivateView: View {
                 .background(Design.Colors.surface)
                 .clipShape(RoundedRectangle(cornerRadius: 20))
                 .padding(.horizontal, 24)
-
-                Spacer()
+                .frame(maxWidth: .infinity)
+                .padding(.top, 52)
+                .padding(.bottom, 24)
+                } // ScrollView
 
                 VStack(spacing: 12) {
                     // COPY: Note below activate button — flag for review

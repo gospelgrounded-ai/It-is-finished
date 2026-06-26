@@ -17,27 +17,28 @@ struct ConfirmStepView: View {
             stepIndicator
                 .padding(.top, 20)
 
-            Spacer()
+            ScrollView {
+                VStack(spacing: 20) {
+                    Image(systemName: "exclamationmark.triangle")
+                        .font(.system(size: 44, weight: .thin))
+                        .foregroundStyle(Design.Colors.warning.opacity(0.8))
 
-            VStack(spacing: 20) {
-                Image(systemName: "exclamationmark.triangle")
-                    .font(.system(size: 44, weight: .thin))
-                    .foregroundStyle(Design.Colors.warning.opacity(0.8))
+                    Text(heading)
+                        .font(.system(size: 24, weight: .bold, design: .serif))
+                        .foregroundStyle(Design.Colors.warmWhite)
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 32)
 
-                Text(heading)
-                    .font(.system(size: 24, weight: .bold, design: .serif))
-                    .foregroundStyle(Design.Colors.warmWhite)
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 32)
-
-                Text(message)
-                    .font(.body)
-                    .foregroundStyle(Design.Colors.warmWhite.opacity(0.65))
-                    .multilineTextAlignment(.center)
-                    .padding(.horizontal, 32)
+                    Text(message)
+                        .font(.body)
+                        .foregroundStyle(Design.Colors.warmWhite.opacity(0.65))
+                        .multilineTextAlignment(.center)
+                        .padding(.horizontal, 32)
+                }
+                .frame(maxWidth: .infinity)
+                .padding(.top, 40)
+                .padding(.bottom, 24)
             }
-
-            Spacer()
 
             VStack(spacing: 12) {
                 // "No" is the hero button — placed first so the eye hits it first

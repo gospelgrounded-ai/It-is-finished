@@ -8,31 +8,28 @@ struct PrayerStepView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Spacer()
+            ScrollView {
+                VStack(spacing: 24) {
+                    Image(systemName: "hands.sparkles")
+                        .font(.system(size: 44, weight: .thin))
+                        .foregroundStyle(Design.Colors.gold)
 
-            VStack(spacing: 24) {
-                Image(systemName: "hands.sparkles")
-                    .font(.system(size: 44, weight: .thin))
-                    .foregroundStyle(Design.Colors.gold)
+                    // COPY: prayer screen heading — flag for review
+                    Text("Pray this now.")
+                        .font(.system(size: 26, weight: .bold, design: .serif))
+                        .foregroundStyle(Design.Colors.warmWhite)
 
-                // COPY: prayer screen heading — flag for review
-                Text("Pray this now.")
-                    .font(.system(size: 26, weight: .bold, design: .serif))
-                    .foregroundStyle(Design.Colors.warmWhite)
-
-                ScrollView {
                     Text(prayerText)
                         .font(Design.Typography.scripture)
                         .foregroundStyle(Design.Colors.warmWhite.opacity(0.85))
                         .lineSpacing(6)
                         .multilineTextAlignment(.leading)
                         .padding(.horizontal, 32)
-                        .padding(.vertical, 8)
                 }
-                .frame(maxHeight: 260)
+                .frame(maxWidth: .infinity)
+                .padding(.top, 40)
+                .padding(.bottom, 24)
             }
-
-            Spacer()
 
             VStack(spacing: 12) {
                 // COPY: prayer complete CTA — flag for review

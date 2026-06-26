@@ -10,8 +10,7 @@ struct CallPartnerStepView: View {
 
     var body: some View {
         VStack(spacing: 0) {
-            Spacer()
-
+            ScrollView {
             VStack(spacing: 24) {
                 Image(systemName: "phone.circle")
                     .font(.system(size: 60, weight: .thin))
@@ -30,8 +29,10 @@ struct CallPartnerStepView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 32)
             }
-
-            Spacer()
+            .frame(maxWidth: .infinity)
+            .padding(.top, 52)
+            .padding(.bottom, 24)
+            } // ScrollView
 
             VStack(spacing: 12) {
                 if let partner, !partner.dialableNumber.isEmpty {
