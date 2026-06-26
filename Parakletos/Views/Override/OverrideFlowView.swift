@@ -46,7 +46,7 @@ struct OverrideFlowView: View {
                 // COPY: confirm1 heading — flag for review
                 heading: "Are you sure you want to do this?",
                 // COPY: confirm1 body — flag for review
-                body: "There is a way out of this moment. You don't have to keep going.",
+                message: "There is a way out of this moment. You don't have to keep going.",
                 // COPY: confirm1 yes label — flag for review
                 yesLabel: "Yes, continue",
                 // COPY: confirm1 no label — flag for review
@@ -77,7 +77,7 @@ struct OverrideFlowView: View {
                 // COPY: confirm2 heading — flag for review
                 heading: "You've prayed. Are you still choosing this?",
                 // COPY: confirm2 body — flag for review
-                body: "You can still turn back. Every time you do, it counts.",
+                message: "You can still turn back. Every time you do, it counts.",
                 yesLabel: "Yes, continue",
                 noLabel: "I'm turning back",
                 onYes: { controller.confirmYes() },
@@ -105,7 +105,7 @@ struct OverrideFlowView: View {
                 // COPY: confirm3 heading — flag for review
                 heading: "Last chance to turn back.",
                 // COPY: confirm3 body — flag for review
-                body: "You have prayed. You have reflected. There is still grace for you right now.",
+                message: "You have prayed. You have reflected. There is still grace for you right now.",
                 yesLabel: "I still want to continue",
                 noLabel: "I'm choosing freedom",
                 onYes: { controller.confirmYes() },

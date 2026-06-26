@@ -27,7 +27,7 @@ targets:
       - path: Parakletos
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.parakletos.app
+        PRODUCT_BUNDLE_IDENTIFIER: com.gospelgrounded.parakletos
         # ── Developer Team ──────────────────────────────────────────────────
         # Fill in your 10-character Apple Developer Team ID after joining the
         # Apple Developer Program (developer.apple.com).
@@ -56,7 +56,7 @@ targets:
       - target: Parakletos
     settings:
       base:
-        PRODUCT_BUNDLE_IDENTIFIER: com.parakletos.tests
+        PRODUCT_BUNDLE_IDENTIFIER: com.gospelgrounded.parakletos.tests
         DEVELOPMENT_TEAM: ""
         CODE_SIGN_STYLE: Automatic
 

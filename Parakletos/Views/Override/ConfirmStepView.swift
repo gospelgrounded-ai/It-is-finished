@@ -6,7 +6,7 @@ struct ConfirmStepView: View {
 
     let stepNumber: Int
     let heading: String
-    let body: String
+    let message: String   // renamed from `body` — clashes with View.body
     let yesLabel: String
     let noLabel: String
     let onYes: () -> Void
@@ -30,7 +30,7 @@ struct ConfirmStepView: View {
                     .multilineTextAlignment(.center)
                     .padding(.horizontal, 32)
 
-                Text(body)
+                Text(message)
                     .font(.body)
                     .foregroundStyle(Design.Colors.warmWhite.opacity(0.65))
                     .multilineTextAlignment(.center)
