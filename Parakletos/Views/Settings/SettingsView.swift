@@ -7,6 +7,7 @@ struct SettingsView: View {
     @Query private var allSettings: [AppSettings]
     @Query private var partners: [AccountabilityPartner]
     @Query private var streakStates: [StreakState]
+    @Query private var scriptures: [ScriptureEntry]
 
     @StateObject private var overrideController = OverrideController()
 
@@ -123,11 +124,26 @@ struct SettingsView: View {
                 }
                 .listRowBackground(Design.Colors.surface)
 
-                // ── Notifications (stub) ─────────────────────────────────
+                // ── Notifications ────────────────────────────────────────
                 Section {
                     Toggle(isOn: Binding(
                         get: { settings?.notificationsEnabled ?? true },
-                        set: { settings?.notificationsEnabled = $0 }
+                        set: { newValue in
+                            settings?.notificationsEnabled = newValue
+                            guard let streak else { return }
+                            if newValue {
+                                Task {
+                                    await NotificationManager.requestAuthorization()
+                                    NotificationManager.reschedule(
+                                        enabled: true,
+                                        streak: streak,
+                                        scriptures: scriptures
+                                    )
+                                }
+                            } else {
+                                NotificationManager.cancelAll()
+                            }
+                        }
                     )) {
                         Text("Daily encouragement")
                             .foregroundStyle(Design.Colors.warmWhite)
@@ -138,7 +154,7 @@ struct SettingsView: View {
                         .foregroundStyle(Design.Colors.warmWhite.opacity(0.4))
                 } footer: {
                     // COPY: notifications footer — flag for review
-                    Text("A short scripture or reminder each morning. Full notification setup coming in M3.")
+                    Text("A short scripture each morning and a note when you hit a milestone.")
                         .foregroundStyle(Design.Colors.warmWhite.opacity(0.3))
                 }
                 .listRowBackground(Design.Colors.surface)

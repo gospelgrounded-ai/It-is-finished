@@ -87,6 +87,14 @@ struct HomeView: View {
         .onAppear {
             if let streak { StreakEngine.checkAndUpdateLongest(state: streak) }
         }
+        .task(id: streak?.currentStreakStart) {
+            guard let streak, let settings else { return }
+            NotificationManager.reschedule(
+                enabled: settings.notificationsEnabled,
+                streak: streak,
+                scriptures: scriptures
+            )
+        }
     }
 
     // MARK: - Sub-views

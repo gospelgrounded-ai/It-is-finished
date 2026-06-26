@@ -47,5 +47,7 @@ struct OnboardingFlow: View {
 
         // Seed scripture + prayer content
         SeedLoader.loadIfNeeded(in: modelContext)
+
+        Task { await NotificationManager.requestAuthorization() }
     }
 }
