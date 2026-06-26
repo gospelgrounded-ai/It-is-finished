@@ -1,0 +1,279 @@
+{
+  "scriptures": [
+    {
+      "reference": "1 Corinthians 10:13",
+      "text": "No temptation has overtaken you except what is common to mankind. And God is faithful; he will not let you be tempted beyond what you can bear. But when you are tempted, he will also provide a way out so that you can endure it.",
+      "theme": "escape",
+      "dayIndex": 0
+    },
+    {
+      "reference": "Psalm 34:7",
+      "text": "The angel of the Lord encamps around those who fear him, and he delivers them.",
+      "theme": "escape",
+      "dayIndex": 8
+    },
+    {
+      "reference": "2 Peter 2:9",
+      "text": "The Lord knows how to rescue the godly from trials.",
+      "theme": "escape",
+      "dayIndex": 16
+    },
+    {
+      "reference": "James 1:12",
+      "text": "Blessed is the one who perseveres under trial because, having stood the test, that person will receive the crown of life that the Lord has promised to those who love him.",
+      "theme": "escape",
+      "dayIndex": 24
+    },
+    {
+      "reference": "Psalm 18:2",
+      "text": "The Lord is my rock, my fortress and my deliverer; my God is my rock, in whom I take refuge, my shield and the horn of my salvation, my stronghold.",
+      "theme": "escape",
+      "dayIndex": 32
+    },
+    {
+      "reference": "Proverbs 4:23",
+      "text": "Above all else, guard your heart, for everything you do flows from it.",
+      "theme": "guardHeart",
+      "dayIndex": 1
+    },
+    {
+      "reference": "Matthew 5:8",
+      "text": "Blessed are the pure in heart, for they will see God.",
+      "theme": "guardHeart",
+      "dayIndex": 9
+    },
+    {
+      "reference": "Philippians 4:7",
+      "text": "And the peace of God, which transcends all understanding, will guard your hearts and your minds in Christ Jesus.",
+      "theme": "guardHeart",
+      "dayIndex": 17
+    },
+    {
+      "reference": "1 Peter 5:8",
+      "text": "Be sober-minded; be watchful. Your adversary the devil prowls around like a roaring lion, seeking someone to devour.",
+      "theme": "guardHeart",
+      "dayIndex": 25
+    },
+    {
+      "reference": "Ephesians 6:10-11",
+      "text": "Finally, be strong in the Lord and in his mighty power. Put on the full armor of God, so that you can take your stand against the devil's schemes.",
+      "theme": "guardHeart",
+      "dayIndex": 33
+    },
+    {
+      "reference": "2 Corinthians 5:17",
+      "text": "Therefore, if anyone is in Christ, the new creation has come: the old has gone, the new is here!",
+      "theme": "identity",
+      "dayIndex": 2
+    },
+    {
+      "reference": "1 Peter 2:9",
+      "text": "But you are a chosen people, a royal priesthood, a holy nation, God's special possession, that you may declare the praises of him who called you out of darkness into his wonderful light.",
+      "theme": "identity",
+      "dayIndex": 10
+    },
+    {
+      "reference": "John 1:12",
+      "text": "Yet to all who did receive him, to those who believed in his name, he gave the right to become children of God.",
+      "theme": "identity",
+      "dayIndex": 18
+    },
+    {
+      "reference": "Galatians 2:20",
+      "text": "I have been crucified with Christ and I no longer live, but Christ lives in me. The life I now live in the body, I live by faith in the Son of God, who loved me and gave himself for me.",
+      "theme": "identity",
+      "dayIndex": 26
+    },
+    {
+      "reference": "Romans 8:1",
+      "text": "Therefore, there is now no condemnation for those who are in Christ Jesus.",
+      "theme": "identity",
+      "dayIndex": 34
+    },
+    {
+      "reference": "Galatians 5:16",
+      "text": "So I say, walk by the Spirit, and you will not gratify the desires of the flesh.",
+      "theme": "spirit",
+      "dayIndex": 3
+    },
+    {
+      "reference": "Romans 8:13",
+      "text": "For if you live according to the flesh, you will die; but if by the Spirit you put to death the misdeeds of the body, you will live.",
+      "theme": "spirit",
+      "dayIndex": 11
+    },
+    {
+      "reference": "1 Corinthians 6:19",
+      "text": "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own.",
+      "theme": "spirit",
+      "dayIndex": 19
+    },
+    {
+      "reference": "Galatians 5:22-23",
+      "text": "But the fruit of the Spirit is love, joy, peace, forbearance, kindness, goodness, faithfulness, gentleness and self-control. Against such things there is no law.",
+      "theme": "spirit",
+      "dayIndex": 27
+    },
+    {
+      "reference": "Ephesians 5:18",
+      "text": "Do not get drunk on wine, which leads to debauchery. Instead, be filled with the Spirit.",
+      "theme": "spirit",
+      "dayIndex": 35
+    },
+    {
+      "reference": "1 Corinthians 6:19-20",
+      "text": "Do you not know that your bodies are temples of the Holy Spirit, who is in you, whom you have received from God? You are not your own; you were bought at a price. Therefore honor God with your bodies.",
+      "theme": "body",
+      "dayIndex": 4
+    },
+    {
+      "reference": "Romans 12:1",
+      "text": "Therefore, I urge you, brothers and sisters, in view of God's mercy, to offer your bodies as a living sacrifice, holy and pleasing to God — this is your true and proper worship.",
+      "theme": "body",
+      "dayIndex": 12
+    },
+    {
+      "reference": "1 Thessalonians 4:3-4",
+      "text": "It is God's will that you should be sanctified: that you should avoid sexual immorality; that each of you should learn to control your own body in a way that is holy and honorable.",
+      "theme": "body",
+      "dayIndex": 20
+    },
+    {
+      "reference": "1 Corinthians 9:27",
+      "text": "No, I strike a blow to my body and make it my slave so that after I have preached to others, I myself will not be disqualified for the prize.",
+      "theme": "body",
+      "dayIndex": 28
+    },
+    {
+      "reference": "Psalm 139:14",
+      "text": "I praise you because I am fearfully and wonderfully made; your works are wonderful, I know that full well.",
+      "theme": "body",
+      "dayIndex": 36
+    },
+    {
+      "reference": "James 1:14-15",
+      "text": "But each person is tempted when they are dragged away by their own evil desire and enticed. Then, after desire has conceived, it gives birth to sin; and sin, when it is full-grown, gives birth to death.",
+      "theme": "temptation",
+      "dayIndex": 5
+    },
+    {
+      "reference": "Matthew 26:41",
+      "text": "Watch and pray so that you will not fall into temptation. The spirit is willing, but the flesh is weak.",
+      "theme": "temptation",
+      "dayIndex": 13
+    },
+    {
+      "reference": "Hebrews 2:18",
+      "text": "Because he himself suffered when he was tempted, he is able to help those who are being tempted.",
+      "theme": "temptation",
+      "dayIndex": 21
+    },
+    {
+      "reference": "Hebrews 4:15-16",
+      "text": "For we do not have a high priest who is unable to empathize with our weaknesses, but we have one who has been tempted in every way, just as we are — yet he did not sin. Let us then approach God's throne of grace with confidence, so that we may receive mercy and find grace to help us in our time of need.",
+      "theme": "temptation",
+      "dayIndex": 29
+    },
+    {
+      "reference": "Psalm 119:11",
+      "text": "I have hidden your word in my heart that I might not sin against you.",
+      "theme": "temptation",
+      "dayIndex": 37
+    },
+    {
+      "reference": "1 John 1:9",
+      "text": "If we confess our sins, he is faithful and just and will forgive us our sins and purify us from all unrighteousness.",
+      "theme": "repentance",
+      "dayIndex": 6
+    },
+    {
+      "reference": "Psalm 51:10",
+      "text": "Create in me a pure heart, O God, and renew a steadfast spirit within me.",
+      "theme": "repentance",
+      "dayIndex": 14
+    },
+    {
+      "reference": "Joel 2:13",
+      "text": "Rend your heart and not your garments. Return to the Lord your God, for he is gracious and compassionate, slow to anger and abounding in love.",
+      "theme": "repentance",
+      "dayIndex": 22
+    },
+    {
+      "reference": "Luke 15:20",
+      "text": "But while he was still a long way off, his father saw him and was filled with compassion for him; he ran to his son, threw his arms around him and kissed him.",
+      "theme": "repentance",
+      "dayIndex": 30
+    },
+    {
+      "reference": "Acts 3:19",
+      "text": "Repent, then, and turn to God, so that your sins may be wiped out, that times of refreshing may come from the Lord.",
+      "theme": "repentance",
+      "dayIndex": 38
+    },
+    {
+      "reference": "Romans 5:20",
+      "text": "But where sin increased, grace increased all the more.",
+      "theme": "grace",
+      "dayIndex": 7
+    },
+    {
+      "reference": "2 Corinthians 12:9",
+      "text": "But he said to me, 'My grace is sufficient for you, for my power is made perfect in weakness.' Therefore I will boast all the more gladly about my weaknesses, so that Christ's power may rest on me.",
+      "theme": "grace",
+      "dayIndex": 15
+    },
+    {
+      "reference": "Ephesians 2:8-9",
+      "text": "For it is by grace you have been saved, through faith — and this is not from yourselves, it is the gift of God — not by works, so that no one can boast.",
+      "theme": "grace",
+      "dayIndex": 23
+    },
+    {
+      "reference": "Titus 2:11-12",
+      "text": "For the grace of God has appeared that offers salvation to all people. It teaches us to say 'No' to ungodliness and worldly passions, and to live self-controlled, upright and godly lives in this present age.",
+      "theme": "grace",
+      "dayIndex": 31
+    },
+    {
+      "reference": "Lamentations 3:22-23",
+      "text": "Because of the Lord's great love we are not consumed, for his compassions never fail. They are new every morning; great is your faithfulness.",
+      "theme": "grace",
+      "dayIndex": 39
+    }
+  ],
+
+  "prayers": [
+    {
+      "theme": "escape",
+      "body": "Father, I am honest with you about the pull I feel right now. You promised a way of escape — help me to see it. Help me to take it. Open my eyes to the path you have already prepared. I do not want momentary relief more than I want you. Give me what I cannot find on my own. Amen."
+    },
+    {
+      "theme": "guardHeart",
+      "body": "Lord, my heart needs guarding right now and I cannot guard it on my own. You said to keep it above all else because everything flows from it. Post your presence around me. Bring peace that I cannot manufacture. I commit what I am seeing, what I am thinking, and what I am reaching for — to you. Be my defense. Amen."
+    },
+    {
+      "theme": "identity",
+      "body": "Jesus, I am a child of God. Bought with a price. Chosen and set apart. The old man who lived for his appetites is not who I am any more. Help me to live from that truth right now, not just claim it with words. I am not the person this temptation says I am. I belong to you. Amen."
+    },
+    {
+      "theme": "spirit",
+      "body": "Holy Spirit, I confess I am walking in the flesh right now. Come. Overwhelm what my flesh is craving with what you know I actually need. You live in me — let your presence be louder than this desire. I cannot win this by willpower. I need you. Fill me now. Amen."
+    },
+    {
+      "theme": "body",
+      "body": "Father, my body is your temple and something wants to desecrate it right now. I reclaim what is yours. This body was bought at the price of your Son's blood — I do not want to treat that lightly. Give me dignity and discipline. Help me to honor you with what I do in the next few minutes. Amen."
+    },
+    {
+      "theme": "temptation",
+      "body": "Lord Jesus, you were tempted in every way as I am, yet you did not sin. You know exactly what this moment feels like. You are not distant or disappointed — you are near, and you know the way through. I am running to your throne of grace right now. Give me mercy. Give me a way out. I trust you. Amen."
+    },
+    {
+      "theme": "repentance",
+      "body": "Father, I have sinned and I do not want to minimize it or dress it up. I know what I have done. I am coming home right now. Thank you that your arms are already open — you saw me coming before I turned. Create in me a clean heart. Let this moment be a turning point. I trust your forgiveness. Amen."
+    },
+    {
+      "theme": "grace",
+      "body": "God of new mercies, this is a new morning for me whether the clock agrees or not. Where sin has abounded, your grace has abounded more. I do not deserve a fresh start — but you give them anyway because of Jesus. I receive it. Help me not to presume on it either. Grace is the reason I fight, not the reason I give up. Amen."
+    }
+  ]
+}
